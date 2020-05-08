@@ -9,7 +9,7 @@ startdateunix = str(time.mktime(startdate.timetuple()))
 enddateunix = str(time.mktime(enddate.timetuple()))
 token = ''
 channelID = ''
-url = 'https://slack.com/api/channels.history?token='+token+'&channel='+channelID+'&count=1000&latest='+enddateunix+'&oldest='+startdateunix+'&pretty=1'
+#url = 'https://slack.com/api/channels.history?token='+token+'&channel='+channelID+'&count=1000&latest='+enddateunix+'&oldest='+startdateunix+'&pretty=1'
 file = r.get(url)
 jsonfile = json.loads(file.content)
 slackdata = jsonfile['messages']
