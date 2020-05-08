@@ -1,0 +1,10 @@
+token = ""
+replace_user_ids = True
+scrape_channels = True
+scrape_groups = True
+scrape_private_messages = False
+scrape_archived_channels = False
+scrape_channels_im_not_a_member_of = False
+scrape_archived_groups = True
+directory = "../data"
+start_date = "2020-05-06"
